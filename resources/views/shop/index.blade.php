@@ -1,51 +1,50 @@
 @extends('layouts.master')
 @section('site-title') strona główna @endsection
+
 @section('site-content')
-     @include('partials/nav')
-     <div class="sl-container" id="main-container">
-          <div class="carousel slide" id="sl-hello-carousel" data-ride="carousel">
-               <ol class="carousel-indicators">
-                    <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-               </ol>
-               <div class="carousel-inner">
-                    <div class="carousel-item active">
-                         <img class="d-block w-100" src="https://wallpaper.wiki/wp-content/uploads/2017/05/Camper-vans-for-sale-wallpapers-1920x1080.jpg" alt="First slide"/>
-                         <div class="carousel-caption d-none d-md-block">
-                              <h3>Witaj na Sweetliving!</h3>
-                              <p><a href="">Idź do sklepu</a></p>
-                         </div>
-                    </div>
-                    <div class="carousel-item">
-                         <img class="d-block w-100" src="https://wallpapercave.com/wp/ElOo7dZ.jpg" alt="second slide"/>
-                         <div class="carousel-caption d-none d-md-block">
-                              <h3>SL Collection</h3>
-                              <p><a href="">Idź do sklepu</a></p>
-                         </div>
-                    </div>
-                    <div class="carousel-item">
-                         <img class="d-block w-100" src="http://goldwallpapers.com/uploads/posts/classic-cars-wallpapers-free/classic_cars_wallpapers_free_023.jpg" alt="third slide"/>
-                    </div>
-                    <div class="carousel-item">
-                         <img class="d-block w-100" src="https://lh3.googleusercontent.com/nbxr8mAKd_m9q1ODpOPddz3mSeoPMaSGTqZl69xOQAMT8bsRLDB16WF8HSoChZDWM5U=h900" alt="forth slide"/>
-                    </div>
-                    <div class="carousel-item">
-                         <img class="d-block w-100" src="http://getwallpapers.com/wallpaper/full/b/3/3/458630.jpg" alt="fifth slide"/>
+     <div class="carousel slide" id="sl-hello-carousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+               <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+               <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://wallpaper.wiki/wp-content/uploads/2017/05/Camper-vans-for-sale-wallpapers-1920x1080.jpg" alt="First slide"/>
+                    <div class="carousel-caption d-none d-md-block">
+                         <h3>Witaj na Sweetliving!</h3>
+                         <p><a href="">Idź do sklepu</a></p>
                     </div>
                </div>
-               <a class="carousel-control-prev" href="#sl-hello-carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-               </a>
-               <a class="carousel-control-next" href="#sl-hello-carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-               </a>
+               <div class="carousel-item">
+                    <img class="d-block w-100" src="https://wallpapercave.com/wp/ElOo7dZ.jpg" alt="second slide"/>
+                    <div class="carousel-caption d-none d-md-block">
+                         <h3>SL Collection</h3>
+                         <p><a href="">Idź do sklepu</a></p>
+                    </div>
+               </div>
+               <div class="carousel-item">
+                    <img class="d-block w-100" src="http://goldwallpapers.com/uploads/posts/classic-cars-wallpapers-free/classic_cars_wallpapers_free_023.jpg" alt="third slide"/>
+               </div>
+               <div class="carousel-item">
+                    <img class="d-block w-100" src="https://lh3.googleusercontent.com/nbxr8mAKd_m9q1ODpOPddz3mSeoPMaSGTqZl69xOQAMT8bsRLDB16WF8HSoChZDWM5U=h900" alt="forth slide"/>
+               </div>
+               <div class="carousel-item">
+                    <img class="d-block w-100" src="http://getwallpapers.com/wallpaper/full/b/3/3/458630.jpg" alt="fifth slide"/>
+               </div>
           </div>
+          <a class="carousel-control-prev" href="#sl-hello-carousel" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#sl-hello-carousel" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+          </a>
+     </div>
           <div class="content-box">
                <p class="sl-blockqoute">
                     <b>Sweet Living Home Inspirations</b> to wyjątkowe miejsce, które powstało z pasji oraz <b>zamiłowania</b> do piękna i estetyki. Naszą misją jest <b>aranżacja</b> przytulnych wnętrz urządzonych ze smakiem, w których gości zarówno <b>elegancja</b> i <b>nietuzinkowość</b> jak i <b>domowa atmosfera</b>. Tworzymy projekty wnętrz w stylu <b>Hampton</b>, <b>New England</b> oraz <b>glamour</b>, które stanowią uosobienie <b>luksusu</b>, a każdy detal nabiera unikalnego charakteru. Zapraszamy do naszego <b>showroomu w Warszawskim Wilanowie</b>, gdzie na miejscu można zapoznać się z bogatą ekspozycją artykułów dekoracyjnych. Oferowane w Sweet Living marki to: <b>Riviera Maison</b>, <b>Eichholtz</b>, <b>Bloomingville</b>, <b>MTI Furninova</b>, <b>Lene Bjerre</b>, <b>Thibaut</b>, <b>Ralph Lauren</b> oraz <b>Hilding</b>.
@@ -167,7 +166,4 @@
                </div>
           @include('partials/logo-slider')
           </div>
-     </div>
-
-     @include('partials/footer')
-@endsection
+     @endsection

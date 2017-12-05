@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+Route::get('/home', function () {
+    return view('shop.index');
+});
+
+Route::get('/products', 'ProductController@index');
+Route::get('/brands', 'BrandController@index');

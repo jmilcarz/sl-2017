@@ -3,12 +3,12 @@
           <div class="sl-container">
                <ul class="info">
                     <li><a href=""><i class="fa fa-phone"></i>22 498 54 56</a></li>
-                    <li><a href=""><i class="fa fa-envelope"></i>sklep@sweetliving.pl</a></li>
+                    <li><a href="mailto:sklep@sweetliving.pl"><i class="fa fa-envelope"></i>sklep@sweetliving.pl</a></li>
                </ul>
                <ul class="auth">
                     <li class="added-mobile"><a href=""><i class="fa fa-phone"></i>22 498 54 56</a></li>
-                    <li><a href="">Zaloguj się</a></li>
-                    <li><a class="sl-btn" href="">Załóż konto</a></li>
+                    <li><a href="login">Zaloguj się</a></li>
+                    <li><a class="sl-btn" href="register">Załóż konto</a></li>
                     <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
                     <li class="mobile" id="toggleSearchMobile"><a><i class="fa fa-search"></i></a></li>
                </ul>
