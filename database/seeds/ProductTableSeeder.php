@@ -27,7 +27,7 @@ class ProductTableSeeder extends Seeder
 
          for ($i = 0; $i < 5; $i++) {
               $product = new \App\Product([
-                  'product_id' => $i,
+                  'id' => $i,
                   'product_brand_id' => $productBrandIds[$i],
                   'product_code' => $productCodes[$i],
                   'product_name' => $productNames[$i],
@@ -39,9 +39,6 @@ class ProductTableSeeder extends Seeder
              ]);
              $product->save();
          }
-          // $product = new \App\Pruduct([
-          //      'product_id' => ""
-          // ]);
 
     }
 }

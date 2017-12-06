@@ -14,7 +14,7 @@
                                         <div class="card-body">
                                              <h4 class="card-title">{{ $product->product_name }}</h4>
                                              <p class="card-text">{{ $product->product_description }}</p>
-                                             <a href="#" class="sl-btn sl-btn-filled"><i class="fa fa-shopping-cart"></i> dodaj do koszyka</a>
+                                             <a href="{{ route('product.addToCart', ['id' => $product->id]) }}" class="sl-btn sl-btn-filled"><i class="fa fa-shopping-cart"></i> dodaj do koszyka</a>
                                              <b class="pull-right">{{ $product->product_price }}.00 PLN</b>
                                         </div>
                                    </div>
